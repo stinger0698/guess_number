@@ -7,12 +7,8 @@ while True:
 
     if guess < number:
         print('Number is higher than input')
-        continue
-
-    if guess > number:
+    elif guess > number:
         print('Number is lesser than input')
-        continue
-
-    if guess == number:
+    elif guess == number:
         print('You guessed the number!')
         break
